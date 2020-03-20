@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Baloo 2', cursive;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  padding: 20px;
+}
+
+h2 {
+  display: none;
+  border-top: solid 1px grey;
+  padding: 20px;
+}
+
+button {
+  background: none;
+  padding: 20px;
+  border: solid 3px grey;
+  transition: all 2s;
+}
+
+button:focus {
+  transform: scale(2 , 2);
+  background-color: lightblue;
+}
+
+button:focus h2 {
+  display: block;
+}
