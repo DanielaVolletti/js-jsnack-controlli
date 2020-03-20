@@ -19,4 +19,4 @@ if (parolaUno.length < parolaDue.length) {
 console.log(parolaCorta);
 
 // output stampa
-document.getElementById('stampa-in-sequenza').innerHTML = "In ordine di lunghezza di parole, le parole inserite sono: " + parolaCorta;
+document.getElementById('stampa-in-sequenza').innerHTML = "Le parole inserite sono, in ordine di lunghezza: " + parolaCorta;
