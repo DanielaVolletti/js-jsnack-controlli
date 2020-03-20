@@ -2,4 +2,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#contenitore-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container-titolo {
+  border-radius: 20px;
+  border: solid 1px blue;
+  padding: 30px;
+  background: lightblue;
+}
+
+#numero-grande {
+  font-size: 30px;
+  color: white;
 }
